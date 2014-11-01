@@ -1,37 +1,45 @@
-/*
-Template 2029 Slide Wall
-http://www.tooplate.com/view/2029-slide-wall
-*/
-
 body {
 	margin: 0px;
 	padding: 0px;
-	color: #4d4638;
+	color: #FFFFFF;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
 	line-height: 1.7em; 
 	background: url(images/tooplate_body.jpg);
-	background-color: #c2b8a1;
-	background-repeat: repeat-x;
-	background-position: top	
+	background-color: #696969;
+	background-repeat: repeat;	
 }
 
-a, a:link, a:visited { color: #000; font-weight: bold; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a, a:link, a:visited { 
+color: #FFFFFF; font-weight: bold; text-decoration: none; 
+}
+
+a:hover { 
+text-decoration: underline; 
+}
 
 .orange {
-	color: #FC0;
+	color: #FFFFFF;
 }
 
-.green {
-	color: #CF6;
+
+
+p { 
+margin: 0 0 10px 0; 
+padding: 0; 
 }
 
-p { margin: 0 0 10px 0; padding: 0; }
-img { border: none; }
-em { color: #000; font-weight: bold; font-style: normal }
+img {
+ border: none; 
+ }
 
-h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+ em {
+ color: #FFFFFF; 
+ font-weight: bold; 
+ font-style: normal 
+ }
+
+h1, h2, h3, h4, h5, h6 { color: #FFFFFF; font-weight: normal; }
 h1 { font-size: 34px; margin: 0 0 20px 0; padding: 5px 0 }
 h2 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0; }
 h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
@@ -72,9 +80,9 @@ a.more:hover {
 
 .image_wrapper { 
 	display: inline-block; 
-	border: 1px solid #cac2b1; 
-	background: #b5ac98; 
-	padding: 4px; 
+	border: 1px solid #757575; 
+	background: #000000; 
+	padding: 0px; 
 	margin-bottom: 5px; 
 }
 
@@ -111,7 +119,7 @@ a.more:hover {
 }
 
 #tooplate_header {
-	width: 960px;
+	width: 900px;
 	padding: 10px 0;
 	margin: 0 auto;
 }
@@ -235,7 +243,6 @@ a.more:hover {
 	height: 307px;
 	padding: 10px 40px;
 	margin: 0 auto;
-	background: url(images/tooplate_middle_home.png) no-repeat
 }
 
 #tooplate_middle_subpage { 
@@ -245,7 +252,6 @@ a.more:hover {
 	padding: 60px 100px;
 	margin: 0 auto;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	background: url(images/tooplate_middle_subpage.png) no-repeat;
 }
 
 #tooplate_middle_subpage h2 { 
@@ -498,8 +504,8 @@ a.more:hover {
 #tooplate_footer_wrapper {
 	clear: both;
 	width: 100%;
-	background: #a19882;
-	border-top: 10px solid #d0c8b4;
+	background: #202020;
+	border-top: 2px solid black;
 }
 
 #tooplate_footer {
@@ -507,11 +513,8 @@ a.more:hover {
 	margin: 0 auto;
 	padding: 15px 0;
 	text-align: center;
-	color: #000;
-	background:  url(images/tooplate_footer.jpg) top center no-repeat
 }
 
 #tooplate_cr a { 
-	color: #5fa008; 
 	font-weight: normal; 
 }
