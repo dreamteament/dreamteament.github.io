@@ -2,8 +2,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #FFFFFF;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 13px;
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
 	line-height: 1.7em; 
 	background: url(images/tooplate_body.jpg);
 	background-color: #696969;
@@ -11,7 +11,7 @@ body {
 }
 
 a, a:link, a:visited { 
-color: #FFFFFF; font-weight: bold; text-decoration: none; 
+color: red; font-weight: bold; text-decoration: none; 
 }
 
 a:hover { 
@@ -251,22 +251,22 @@ a.more:hover {
 	height: 207px;
 	padding: 60px 100px;
 	margin: 0 auto;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Lobster', cursive;
 }
 
 #tooplate_middle_subpage h2 { 
 	font-size: 48px; 
-	color: #000; 
+	color: #fff; 
 }
 
 #tooplate_middle_subpage p { 
 	font-size: 18px; 
-	color: #000; 
+	color: #fff; 
 	line-height: 30px; 
 }
 
 #tooplate_middle_subpage a { 
-	color: #507921; 
+	color: #fff; 
 	font-weight: normal; 
 }
 
@@ -298,7 +298,7 @@ a.more:hover {
 .wwd_box { clear: both; margin-top: 20px; margin-bottom: 40px }
 .wwd_box img { float: left; width: 80px; margin-right: 30px }
 .wwd_box h3 { font-size: 16px; margin-bottom: 0 }
-.wwd_box h3 a { color: #507921; font-size: 16px; font-weight: normal }
+.wwd_box h3 a { color: red; font-size: 16px; font-weight: normal }
 .wwd_box p { margin-bottom: 30px; }
 
 .lp_box { float: left; width: 300px; margin-right: 30px }
@@ -322,7 +322,7 @@ a.more:hover {
 	padding: 10px;
 	border: 1px solid #ccc;  
 	background: #fff;
-	color: #333;  
+	color: #fff;  
 	font-family: Verdana,Geneva,sans-serif;
     font-size: 12px;
 	margin-top: 5px;
@@ -341,7 +341,7 @@ a.more:hover {
 	padding: 10px; 
 	border: 1px solid #ccc;  
 	background: #fff;
-	color: #333;
+	color: #fff;
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 12px;
 	margin-top: 5px;
